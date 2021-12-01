@@ -7,7 +7,7 @@ sudo apt install gawk wget git diffstat unzip texinfo gcc build-essential chrpat
 
 (more info here: https://docs.yoctoproject.org/3.4/brief-yoctoprojectqs/index.html)
 
-git clone --recurse-submodules https://github.com/ThomasRausU/rfid-jukebox.git
+git clone --recurse-submodules https://github.com/ThomasRausU/yocto-rfid-jukebox.git
 
 source poky/oe-init-build-env 
 
