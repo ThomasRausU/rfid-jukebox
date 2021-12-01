@@ -1,4 +1,4 @@
-# rfid-jukebox
+# yocto-rfid-jukebox
 yocto image example using meta-jukebox to build for a rpi zero 2 with wm8960 audio hat and MFRC522 RFID module
 
 steps to build a image on a ubuntu 20.04
