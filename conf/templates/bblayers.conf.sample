@@ -1,0 +1,7 @@
+OEROOT = "##OEROOT##"
+require ##OEROOT##/../conf/layers.conf
+
+# Add an local layers here (and for devtool)
+BBLAYERS += "\
+    ##OEROOT##/../meta-raspberrypi \
+    "
