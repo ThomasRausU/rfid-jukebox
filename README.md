@@ -16,7 +16,7 @@ yocto image example using [meta-jukebox](https://github.com/ThomasRausU/meta-juk
 ## build the image
     cd yocto-rfid-jukebox
 
-    source init-build-env
+    cd poky && TEMPLATECONF=../conf/templates/ . oe-init-build-env ../build
 
     bitbake jukebox-image
 
