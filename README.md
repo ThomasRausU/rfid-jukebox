@@ -14,9 +14,7 @@ yocto image example using [meta-jukebox](https://github.com/ThomasRausU/meta-juk
     git clone --recurse-submodules https://github.com/ThomasRausU/yocto-rfid-jukebox.git
 
 ## build the image
-    cd yocto-rfid-jukebox
-
-    cd poky && TEMPLATECONF=../conf/templates/ . oe-init-build-env ../build
+    cd yocto-rfid-jukebox/poky && TEMPLATECONF=../conf/templates/ . oe-init-build-env ../build
 
     bitbake jukebox-image
 
